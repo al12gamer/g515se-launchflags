@@ -1,0 +1,2 @@
+# Use these for DX12 games on this hardware, to utilize gamescope to fill up the 1080p 144hz screen and force use of the detached RX5600M
+MESA_VK_DEVICE_SELECT=1002:731f gamescope -e -h 1080 -H 1080 -b -f -- mangohud %command%
